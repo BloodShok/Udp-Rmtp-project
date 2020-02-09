@@ -1,0 +1,199 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "fluorinefx/1.2.4": {
+        "type": "package",
+        "dependencies": {
+          "log4net": "[1.2.10]"
+        },
+        "compile": {
+          "lib/net40/FluorineFx.ServiceBrowser.dll": {},
+          "lib/net40/FluorineFx.dll": {},
+          "lib/net40/antlr.runtime.dll": {}
+        },
+        "runtime": {
+          "lib/net40/FluorineFx.ServiceBrowser.dll": {},
+          "lib/net40/FluorineFx.dll": {},
+          "lib/net40/antlr.runtime.dll": {}
+        }
+      },
+      "FluorineFX.Serialization/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "fluorinefx": "1.2.4"
+        },
+        "compile": {
+          "lib/FluorineFX.Serialization.dll": {}
+        },
+        "runtime": {
+          "lib/FluorineFX.Serialization.dll": {}
+        }
+      },
+      "log4net/1.2.10": {
+        "type": "package",
+        "compile": {
+          "lib/2.0/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/2.0/log4net.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "fluorinefx/1.2.4": {
+      "sha512": "6v64MqI0qlx1C0OIe+i2QByZ/WhvzIXXlokZp5l1Y4ig9HZyHc3cvygs2ZIYLkunip2hFuwU96A12nddKYKung==",
+      "type": "package",
+      "path": "fluorinefx/1.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Gateway.aspx.cs.pp",
+        "content/Gateway.aspx.designer.cs.pp",
+        "content/Gateway.aspx.pp",
+        "content/app.config.transform",
+        "content/web.config.transform",
+        "fluorinefx.1.2.4.nupkg.sha512",
+        "fluorinefx.nuspec",
+        "lib/net35/FluorineFx.ServiceBrowser.dll",
+        "lib/net35/FluorineFx.dll",
+        "lib/net35/antlr.runtime.dll",
+        "lib/net40/FluorineFx.ServiceBrowser.dll",
+        "lib/net40/FluorineFx.dll",
+        "lib/net40/antlr.runtime.dll"
+      ]
+    },
+    "FluorineFX.Serialization/1.0.2": {
+      "sha512": "O1rw7stXmobDiMIDj8uIj3JOor7M+MTevu/Dy4V2+r9FVquMCBUJgvJkml/YSPDaj2OLOyfIvBVFM6C/hvM9nw==",
+      "type": "package",
+      "path": "fluorinefx.serialization/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluorinefx.serialization.1.0.2.nupkg.sha512",
+        "fluorinefx.serialization.nuspec",
+        "lib/FluorineFX.Serialization.dll"
+      ]
+    },
+    "log4net/1.2.10": {
+      "sha512": "yP7PCpxPt5cB9yiRAvCwyW5YRqXV4jM4tpVLnm/ls2nJt786l5srbSdm5xIEVMXz/kOYqLKP177Gyqey1wdP/A==",
+      "type": "package",
+      "path": "log4net/1.2.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/1.0/log4net.dll",
+        "lib/1.0/log4net.xml",
+        "lib/1.1/log4net.dll",
+        "lib/1.1/log4net.xml",
+        "lib/2.0/log4net.dll",
+        "lib/2.0/log4net.xml",
+        "log4net.1.2.10.nupkg.sha512",
+        "log4net.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "FluorineFX.Serialization >= 1.0.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\blood\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\blood\\Documents\\VsCodeProjects\\Tcp-Udp-server\\Udp-Rmtp-project\\Tcp-Udp-server.csproj",
+      "projectName": "Tcp-Udp-server",
+      "projectPath": "C:\\Users\\blood\\Documents\\VsCodeProjects\\Tcp-Udp-server\\Udp-Rmtp-project\\Tcp-Udp-server.csproj",
+      "packagesPath": "C:\\Users\\blood\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\blood\\Documents\\VsCodeProjects\\Tcp-Udp-server\\Udp-Rmtp-project\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\blood\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "dependencies": {
+          "FluorineFX.Serialization": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"fluorinefx 1.2.4\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "fluorinefx",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"FluorineFX.Serialization 1.0.2\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "FluorineFX.Serialization",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"log4net 1.2.10\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "log4net",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    }
+  ]
+}

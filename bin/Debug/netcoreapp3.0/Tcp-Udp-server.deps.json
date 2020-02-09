@@ -1,0 +1,85 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Tcp-Udp-server/1.0.0": {
+        "dependencies": {
+          "FluorineFX.Serialization": "1.0.2"
+        },
+        "runtime": {
+          "Tcp-Udp-server.dll": {}
+        }
+      },
+      "fluorinefx/1.2.4": {
+        "dependencies": {
+          "log4net": "1.2.10"
+        },
+        "runtime": {
+          "lib/net40/FluorineFx.ServiceBrowser.dll": {
+            "assemblyVersion": "1.0.0.15",
+            "fileVersion": "1.0.0.15"
+          },
+          "lib/net40/FluorineFx.dll": {
+            "assemblyVersion": "1.0.0.15",
+            "fileVersion": "1.0.0.15"
+          },
+          "lib/net40/antlr.runtime.dll": {
+            "assemblyVersion": "2.7.6.2",
+            "fileVersion": "2.7.6.2"
+          }
+        }
+      },
+      "FluorineFX.Serialization/1.0.2": {
+        "dependencies": {
+          "fluorinefx": "1.2.4"
+        },
+        "runtime": {
+          "lib/FluorineFX.Serialization.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "log4net/1.2.10": {
+        "runtime": {
+          "lib/2.0/log4net.dll": {
+            "assemblyVersion": "1.2.10.0",
+            "fileVersion": "1.2.10.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tcp-Udp-server/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "fluorinefx/1.2.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6v64MqI0qlx1C0OIe+i2QByZ/WhvzIXXlokZp5l1Y4ig9HZyHc3cvygs2ZIYLkunip2hFuwU96A12nddKYKung==",
+      "path": "fluorinefx/1.2.4",
+      "hashPath": "fluorinefx.1.2.4.nupkg.sha512"
+    },
+    "FluorineFX.Serialization/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O1rw7stXmobDiMIDj8uIj3JOor7M+MTevu/Dy4V2+r9FVquMCBUJgvJkml/YSPDaj2OLOyfIvBVFM6C/hvM9nw==",
+      "path": "fluorinefx.serialization/1.0.2",
+      "hashPath": "fluorinefx.serialization.1.0.2.nupkg.sha512"
+    },
+    "log4net/1.2.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yP7PCpxPt5cB9yiRAvCwyW5YRqXV4jM4tpVLnm/ls2nJt786l5srbSdm5xIEVMXz/kOYqLKP177Gyqey1wdP/A==",
+      "path": "log4net/1.2.10",
+      "hashPath": "log4net.1.2.10.nupkg.sha512"
+    }
+  }
+}
